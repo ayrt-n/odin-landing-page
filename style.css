@@ -97,7 +97,7 @@ a {
 .info-container {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     padding-bottom: 36px;
 }
 
@@ -125,7 +125,7 @@ a {
 .testimonial {
     background-color: #E5E7EB;
     color: #1F2937;
-    padding: 96px 136px;
+    padding: 64px 136px;
     display: flex;
     flex-direction: column;
 }
@@ -140,4 +140,44 @@ a {
     font-weight: 700;
     font-size: 20px;
     align-self: flex-end; 
+}
+
+.action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 64px 136px;
+}
+
+.action-box {
+    background-color: #3882F6;    
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 12px 48px;
+    border-radius: 6px;
+    flex: 1;
+}
+
+.action-header {
+    font-weight: 700;
+    margin-bottom: 0px;
+    font-size: 18px;
+}
+
+.action-text {
+    margin-top: 0px;
+}
+
+.action-btn {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: 2px solid #F9FAF8;
+    padding: 8px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 700;
+    margin: 4px 2px;
+    border-radius: 6px;
 }
