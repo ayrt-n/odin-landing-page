@@ -78,7 +78,7 @@ a {
 
 .container {
     flex: 1;
-    padding-right: 48px;
+    margin-right: 48px;
 }
 
 .banner {
@@ -106,7 +106,7 @@ a {
 .info-container {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     padding-bottom: 36px;
     flex-wrap: wrap;
     align-content: space-between;
@@ -115,7 +115,7 @@ a {
 .info-card {
     flex: 1;
     max-width: 140px;
-    margin: 8px 8px;
+    margin: 8px auto;
 }
 
 .box {
